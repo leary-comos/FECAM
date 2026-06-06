@@ -129,4 +129,3 @@ if __name__ == '__main__':
     result = dct_model.forward(tensor) 
     print("result.shape:",result.shape)
 
-
