@@ -123,4 +123,3 @@ class Model(nn.Module):
             # print("2:",dec_out[:, -self.pred_len:, :].shape)
             return dec_out[:, -self.pred_len:, :]  # [B, L, D]
             
-
