@@ -128,4 +128,3 @@ if __name__ == '__main__':
     dct_model = dct_channel_block()
     result = dct_model.forward(tensor) 
     print("result.shape:",result.shape)
-
